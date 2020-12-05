@@ -8,10 +8,24 @@
     <title>Student details</title>
 </head>
 <body class="backcolor">
-    <h1>Student form</h1>
+   <center><h1 class="textstyle">Student form</h1></center> 
+   
+   <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="main.php">contact us</a>
+      </li>
+      
+    </ul>
+  </nav>
+  
    <div class="container">
        <div class="row">
-           <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+           <div class="col col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+           <div class="col col-12 col-sm-4 col-md-4col-lg-4 col-xl-4">
             <Table>
                 <tr>
                     <td>First Name</td>
@@ -31,7 +45,7 @@
                     <td>Mobile Number</td>
                     <td><input type="text" class="formcontrol"></td>
                     <td>Email id</td>
-                    <td><input type="text" class="formcontrol">></td>
+                    <td><input type="text" class="formcontrol"></td>
                 </tr>
                 <tr>
                     <td>Place</td>
@@ -47,8 +61,12 @@
                 </tr>
                
             </Table>
-            <tr> <button>submit</button></tr>
+            <tr><center><Button class="btn btn-danger">submit</Button></center>
+                
+              
            </div>
+           <div class="col col-12 col-sm-4 col-md-4col-lg-4 col-xl-4">
+
        </div>
    </div>
    
